@@ -1,0 +1,26 @@
+:root {
+    --header-height: 4.5rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.page-main {
+    flex-grow: 1;
+}
